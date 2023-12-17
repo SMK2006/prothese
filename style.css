@@ -31,7 +31,7 @@ body {
   padding: 86px 6.9444% 90px 6.9444%;
   position: relative;
   overflow: hidden;
-  text-align: center;
+  align-items: center;
 }
 .timeline-carousel:after, .timeline-carousel:before {
   content: "";
@@ -66,9 +66,8 @@ body {
   font-weight: 700; /* Adjust font weight */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
   display: inline-block;
-  vertical-align: middle;
-  content: center;
   margin-right: 20px;
+  text-align: center;
 }
 
 .timeline-carousel h3 {
@@ -290,7 +289,6 @@ body {
 	height: 80px;
 	width: 80px;
 	position: relative;
-  text-align: center;
 
 	top: 28%;
 	top: -webkit-calc(50% - 43px);
@@ -350,37 +348,30 @@ body {
 }
 
 
-/* Apply styles to the container section */
 .ultra-cool-creator-section {
-  border: 2px solid #fff; /* White border around the box */
-  padding: 40px; /* Padding around the content */
-  text-align: center; /* Center align text */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
-  overflow: hidden; /* Hide overflow for the border animation */
-  transition: border-color 0.3s ease; /* Smooth transition for border color change */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  text-align: center;
+  border: 2px solid white;
+  font-family: 'Orbitron', sans-serif; /* Google Font: Orbitron */
 }
 
-/* Style the heading */
-.creator-info h2 {
-  font-size: 2em; /* Adjust heading font size */
-  margin-bottom: 20px; /* Space below heading */
-  color: #fff; /* White text color */
+.creator-info {
+  margin-bottom: 20px;
 }
 
-/* Style the paragraphs */
-.creator-info p {
-  margin: 10px 0; /* Space around paragraphs */
-  color: #fff; /* White text color */
+h2, p {
+  margin: 0;
+  color: white;
 }
 
-/* Add hover effect to paragraphs for additional interaction */
-.creator-info p:hover {
-  font-weight: bold; /* Bold text on hover */
-  cursor: pointer; /* Change cursor on hover for interaction */
+.box {
+  position: relative;
 }
 
-/* Animation class for a cool effect */
-.ultra-cool-creator-section.animate-border {
-  border-color: #3498db; /* Change border color on animation */
+.box {
+ 
+  position: relative;
 }
