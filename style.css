@@ -67,7 +67,7 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
   display: inline-block;
   margin-right: 20px;
-  text-align: center;
+  align-items: left;
 }
 
 .timeline-carousel h3 {
